@@ -6,6 +6,7 @@
 import numpy as np
 
 from scipy import linalg
+from scipy.special import logsumexp
 
 from sklearn.mixture import GaussianMixture
 from sklearn.utils.validation import check_is_fitted

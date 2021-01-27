@@ -140,3 +140,4 @@ def normicdf(x):
 
 def chiinv(x, nu):
     return (2 * gammaincinv(nu / 2, x)) ** 0.5
+
